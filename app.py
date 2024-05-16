@@ -42,3 +42,9 @@ from app_tab3 import render_image_playground_tab
 with tab3:
     render_image_playground_tab(multimodal_model_pro)
 
+
+from app_tab4 import render_video_playground_tab
+
+with tab4:
+    render_video_playground_tab(multimodal_model_pro)
+
