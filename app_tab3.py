@@ -86,7 +86,7 @@ def render_image_playground_tab(multimodal_model_pro: GenerativeModel):
         st.image(er_diag_url, width=350, caption="Image of an ER diagram")
         st.write("Document the entities and relationships in this ER diagram.")
 
-        prompt = """Document the entities and relationships in this ER diagram."""
+        prompt = """Document the entities and relationships in this ER diagram. Also provide a table to explain this."""
 
         tab1, tab2 = st.tabs(["Response", "Prompt"])
         er_diag_img_description = st.button("Generate documentation", key="er_diag_img_description")
