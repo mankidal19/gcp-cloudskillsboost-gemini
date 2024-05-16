@@ -36,3 +36,9 @@ from app_tab2 import render_mktg_campaign_tab
 with tab2:
     render_mktg_campaign_tab(text_model_pro)
 
+
+from app_tab3 import render_image_playground_tab
+
+with tab3:
+    render_image_playground_tab(multimodal_model_pro)
+
