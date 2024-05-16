@@ -60,9 +60,9 @@ def render_image_playground_tab(multimodal_model_pro: GenerativeModel):
 
         oven_screen_img = Part.from_uri(oven_screen_uri, mime_type="image/jpeg")
         st.image(oven_screen_url, width=350, caption="Image of an oven control panel")
-        st.write("Provide instructions for resetting the clock on this appliance in English")
+        st.write("Provide instructions for reheating lasagna on this appliance in English")
 
-        prompt = """How can I reset the clock on this appliance? Provide the instructions in English.
+        prompt = """How reheat a lasagna on this appliance? Provide the instructions in English.
                 If instructions include buttons, also explain where those buttons are physically located.
                 """
 
